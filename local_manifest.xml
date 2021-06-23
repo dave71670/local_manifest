@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="git"
+          fetch="git://github.com/"
+          sync-c="true"
+          sync-j="4" />         
+   
+          <!-- Device trees and kernel -->
+  <project name="MasterAwesome/android_device_xiaomi_laurel_sprout" path="device/xiaomi/laurel_sprout" remote="git" revision="lineage-18.1" />
+  <project name="MasterAwesome/android_kernel_xiaomi_laurel_sprout" path="kernel/xiaomi/laurel_sprout" remote="git" revision="lineage-18.1" /> 
+  <project name="MasterAwesome/android_vendor_xiaomi_laurel_sprout" path="vendor/xiaomi/laurel_sprout" remote="git" revision="lineage-18.1" />
+  <project name="MasterAwesome/android_vendor_xiaomi_laurel_sprout-images" path="vendor/xiaomi/laurel_sprout-images" remote="git" revision="lineage-18.1" />
+  
+          <!-- EXTRA -->
+  <!--project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="git" revision="master" /-->
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="git" revision="lineage-18.0" />
+ 
+
+  </manifest>
